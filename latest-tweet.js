@@ -26,7 +26,7 @@ class LatestTweet {
         var doc = new dom({ errorHandler: function () {} }).parseFromString(
           body
         );
-        if (this.skipPinnedTweets) {
+        if (this.options.skipPinnedTweets) {
           var tweets = xpath.select(
             "//li[contains(@class, 'js-stream-item') and not(contains(@class,'js-pinned'))]",
             doc
