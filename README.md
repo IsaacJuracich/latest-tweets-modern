@@ -34,7 +34,7 @@
 # Current Options
 
 > {
-> skippedPinnedTweets
+> skippedPinnedTweets: boolean
 > }
 
 # License
