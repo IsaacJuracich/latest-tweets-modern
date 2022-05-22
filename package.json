@@ -1,11 +1,11 @@
 {
-  "name": "latest-tweets",
-  "description": "get the latest tweets from a Twitter user timeline",
-  "version": "1.0.4",
+  "name": "latest-tweets-modern",
+  "description": "About Get latest tweets from a user with ease.",
+  "version": "1.0.5",
   "repository": {
     "url": "git://github.com/noffle/latest-tweets.git"
   },
-  "main": "index.js",
+  "main": "latest-tweet.js",
   "dependencies": {
     "request": "^2.65.0",
     "unescape": "^0.1.1",
@@ -19,5 +19,7 @@
     "node",
     "no api",
     "api"
-  ]
+  ],
+  "author": "Isaac Juracich",
+  "credits": "hackergrrl"
 }
