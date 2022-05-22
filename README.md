@@ -5,6 +5,10 @@
 > This is a modified version of hackergrrls latest tweet nodejs module.
 > Modified for easier use, and will be maintained.
 
+# Installing
+
+```cs npm i latest-tweets-modern ```
+
 # Example In House
 
 ```js
