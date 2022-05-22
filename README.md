@@ -7,7 +7,7 @@
 
 # Installing
 
-```cs npm i latest-tweets-modern ```
+```npm i latest-tweets-modern ```
 
 # Example In House
 
