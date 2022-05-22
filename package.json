@@ -1,7 +1,7 @@
 {
   "name": "latest-tweets-modern",
   "description": "About Get latest tweets from a user with ease.",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "repository": {
     "url": "git://github.com/noffle/latest-tweets.git"
   },
