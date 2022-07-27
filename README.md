@@ -16,7 +16,7 @@
   const latestTweets = new (require('../latest-tweet.js'))({
     skipPinnedTweets: true,
   });
-  await latestTweets.getTweets('elonmusk', 5, async (err, tweets) => {
+  latestTweets.getTweets('elonmusk', 5, async (err, tweets) => {
     console.log(tweets);
   });
 })();
@@ -29,7 +29,7 @@
   const latestTweets = new (require('latest-tweets-modern'))({
     skipPinnedTweets: true,
   });
-  await latestTweets.getTweets('elonmusk', 5, async (err, tweets) => {
+  latestTweets.getTweets('elonmusk', 5, async (err, tweets) => {
     console.log(tweets);
   });
 })();
